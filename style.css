@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+}
+
+.main{
+    display: flex;
+}
+
+.img {
+    display: flex;
+
+    height: 100vh;
+    width: 50vw;
+
+    background: url(Images/WOPA160517_D056-resized.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    align-items: center;
+}
+.title{
+    font: "Norse Bold";
+    font-size: x-large;
+    color: aliceblue;
+}
+.banner {
+    display: flex;
+    
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 30%;
+}
+#odin {
+    height: 100%;
+}
+
+.login{
+    display: flex;
+}
+.header{
+    display: flex;
+    
+    background-color:beige;
+    
+    height: 25%;
+    width: 50vw;
+
+    justify-content: center;
+    align-items: center;
+}
+.disclaimer {
+    font-size: x-large;
+
+    text-align: center;
+}
