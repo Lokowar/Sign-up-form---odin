@@ -2,15 +2,23 @@ body {
     margin: 0px;
 }
 
+
 .main{
     display: flex;
 }
 
+
 .img {
     display: flex;
 
+    position:-webkit-sticky;
+    position:sticky;
+    top: 0;
+
     height: 100vh;
-    width: 50vw;
+    width: 40vw;
+
+    min-width: 50vw;
 
     background: url(Images/WOPA160517_D056-resized.jpg);
     background-repeat: no-repeat;
@@ -19,41 +27,75 @@ body {
     align-items: center;
 }
 .title{
-    font: "Norse Bold";
-    font-size: x-large;
+    font-family: Norse, Bold;
+    font-size: 60px;
     color: aliceblue;
 }
 .banner {
     display: flex;
-    
+    flex-direction: column;
+
     background-color: rgba(0, 0, 0, 0.3);
     
     justify-content: center;
     align-items: center;
     
     width: 100%;
-    height: 30%;
+    height: 23rem;
 }
 #odin {
-    height: 100%;
+    height: 10rem;
 }
+
 
 .login{
     display: flex;
+    flex-direction: column;
+
+    flex-grow: 0 1 auto;
+
+    width: 60rem;
 }
 .header{
     display: flex;
     
     background-color:beige;
     
-    height: 25%;
-    width: 50vw;
+    height: 15rem;
+    width: 100%;
 
     justify-content: center;
     align-items: center;
 }
 .disclaimer {
-    font-size: x-large;
+    font-size: 15px;
 
     text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+
+    width: 10rem;
+    height: 23rem;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-left: 20px;
+}
+.footer {
+    display: flex;
+
+    height: 15rem;
+
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    padding: 15px;
+
+    font-size: x-large;
 }
