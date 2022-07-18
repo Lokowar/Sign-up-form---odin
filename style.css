@@ -99,3 +99,15 @@ body {
 
     font-size: x-large;
 }
+
+.valid:invalid {
+    border-color: red;
+}
+.valid:valid {
+    border-color: green;
+}
+.valid[type=number]::-webkit-inner-spin-button,
+.valid[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

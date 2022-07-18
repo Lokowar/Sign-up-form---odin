@@ -22,34 +22,34 @@
                          Iure, sequi ex.</p>
 
                 </div>
-                <div class="form">
+                <form class="form" action="#" method="get">
                     <div>
                         <label for="first_name">*First name:</label>
-                        <input type="text" id="first_name" name="first_name" required>
+                        <input type="text" id="first_name" class="valid" name="first_name" required>
                     </div>
                     <div>
                         <label for="last_name">*Last name:</label>
-                        <input type="text" id="last_name" name="last_name" required>
+                        <input type="text" id="last_name" class="valid" name="last_name" required>
                     </div>
                     <div>
                         <label for="user_email">*Email:</label>
-                        <input type="email" id="user_email" name="user_email" required>
+                        <input type="email" id="user_email" class="valid" name="user_email" required>
                     </div>
                     <div>    
                         <label for="phone_number">*Phone number:</label>
-                        <input type="number" id="phone_number" name="phone_number" required>
+                        <input type="number" id="phone_number" class="valid" name="phone_number" required>
                     </div>
                     <div>    
                         <label for="user_password">*Password:</label>
-                        <input type="password" id="user_password" name="user_password" required>
+                        <input type="password" id="user_password" name="user_password" minlength="3" required>
                     </div>
                     <div>    
-                        <label for="repeat_password">*Repeat password:</label>
-                        <input type="password" id="repeat_password" name="repeat_password" required>    
+                        <label for="confirm_password">*Repeat password:</label>
+                        <input type="password" id="confirm_password" name="confirm_password" required>    
                     </div>   
-                </div>
+                </form>
                 <div class="footer">
-                    <button class="btn" type="button">Create Account</button>
+                    <button class="btn" type="submit">Create Account</button>
                 </div>
             </div>
         </div>
